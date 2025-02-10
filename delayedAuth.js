@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger immediately after a successful login or registration. This can lead to unexpected behavior where parts of your app that rely on the user's authentication status appear to be uninitialized or in an inconsistent state.
